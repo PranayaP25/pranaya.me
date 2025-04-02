@@ -3,49 +3,65 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Bungee+Tint&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Bungee+Tint&family=Mea+Culpa&display=swap"
       rel="stylesheet"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
     <style>
-    .bungee-tint-regular {
-    font-family: "Bungee Tint", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    }
+      body {
+        margin: 0;
+      }
+      .bungee-tint-regular {
+        font-family: "Bungee Tint", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+      }
 
+      .mea-culpa-regular {
+        font-family: "Mea Culpa", cursive;
+        font-weight: 400;
+        font-style: normal;
+      }
+
+      .namediv {
+        background-color: lightsteelblue;
+        font-size: xx-large;
+        margin: auto;
+        margin-top: 5px;
+        width: calc(100% - 10px);
+        text-align: center;
+        border-style: solid;
+        border-color: black;
+        border-radius: 10px;
+      }
+
+      .menudiv {
+        background-color: antiquewhite;
+        width: calc(100% - 10px);
+        height: 40px;
+        margin: auto;
+        margin-top: 5px;
+        border-style: solid;
+        border-color: black;
+        border-radius: 10px;
+      }
+
+      .menuitem {
+        float: right;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+      }
     </style>
   </head>
-  <div
-    class="bungee-tint-regular"
-    style="
-      background-color: antiquewhite;
-      position: absolute;
-      left: 0px;
-      right: 0px;
-      top: 0px;
-    "
-  >
-    <a
-      style="
-        float: right;
-        padding-left: 10px;
-        padding-right: 10px;
-        padding-top: 5px;
-        padding-bottom: 5px;
-      "
-      href="things_i_made/index.html"
-      >things I made</a
-    >
-    <a
-      style="
-        float: right;
-        padding-left: 10px;
-        padding-right: 10px;
-        padding-top: 5px;
-        padding-bottom: 5px;
-      "
-      href="blog/index.html"
-      >blog</a
-    >
+  <div class="bungee-tint-regular menudiv">
+    <a class="menuitem" href="things_i_made/index.html">things I made</a>
+    <a class="menuitem" href="blog/index.html">blog</a>
+    <a class="menuitem" href="books_i_read/index.html">books I read</a>
+  </div>
+
+  <div class="mea-culpa-regular namediv">
+    <div class="name">Pranaya.me</div>
   </div>
 </html>
