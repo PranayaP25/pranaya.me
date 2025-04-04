@@ -56,11 +56,10 @@
 
       .doublediv {
         width: calc(50% - 20px);
-        height: 40px;
         background-color: thistle;
         display: inline-block;
         margin: 5px;
-        border-style:solid ;
+        border-style: solid;
         border-color: black;
         border-radius: 10px;
       }
@@ -71,6 +70,19 @@
 
       .doublert {
         float: right;
+      }
+
+      .boldstyle {
+        padding: 10px;;
+        font-size: xx-large;
+        color: rgb(2, 38, 38);
+      }
+
+      .regulartext {
+        font-size: larger;
+        font-style: italic;
+        padding: 10px;
+        color: cadetblue;
       }
     </style>
   </head>
@@ -84,7 +96,14 @@
     <div class="name">Pranaya.me</div>
   </div>
   <div>
-    <div class="doublediv doubleleft"></div>
-    <div class="doublediv doublert"></div>
+    <div class="doublediv doubleleft mea-culpa-regular"></div>
+    <div class="doublediv doublert">
+      <span class="boldstyle mea-culpa-regular"> About Me</span>
+      <p class="regulartext">
+        Hello! my name is pranaya <br />I am a teenager <br />I like to read,
+        play soccer.<br />
+        I also like to dance.
+      </p>
+    </div>
   </div>
 </html>
